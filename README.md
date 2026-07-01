@@ -11,6 +11,8 @@ Pharmacies struggle with inventory — overstocking increases costs, understocki
 ---
 
 ## Project Structure
+
+```
 Drug_Demand_Forecaster/
 ├── data/
 │   └── salesdaily.csv
@@ -25,7 +27,7 @@ Drug_Demand_Forecaster/
 ├── model_comparison.csv
 ├── forecast_comparison.png
 └── requirements.txt
----
+```
 
 ## Approach
 
