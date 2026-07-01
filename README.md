@@ -11,19 +11,21 @@ Pharmacies struggle to maintain optimal drug inventory — overstocking increase
 ---
 
 ## 📁 Project Structure
+
+
 Drug_Demand_Forecaster/
 ├── data/
-│   └── salesdaily.csv           # 6 years of daily pharma sales (2014–2019)
+│   └── salesdaily.csv           
 ├── src/
-│   ├── data_loader.py           # CSV loading + datetime conversion
-│   ├── preprocessing.py         # Per-model data preparation (ARIMA/Prophet)
-│   ├── forecast_model.py        # Train both models, pick winner by RMSE
-│   └── evaluate.py              # RMSE/MAPE metrics, plots, CSV export
-├── Model/                       # 16 saved .pkl models (8 drugs × 2 models)
-├── app.py                       # Streamlit interactive dashboard
-├── final_notebook.ipynb         # Full end-to-end pipeline walkthrough
-├── model_comparison.csv         # Summary table of all results
-├── forecast_comparison.png      # 8-panel forecast vs actual plot
+│   ├── data_loader.py           
+│   ├── preprocessing.py         
+│   ├── forecast_model.py        
+│   └── evaluate.py              
+├── Model/                       
+├── app.py                       
+├── final_notebook.ipynb         
+├── model_comparison.csv         
+├── forecast_comparison.png      
 └── requirements.txt
 ---
 
